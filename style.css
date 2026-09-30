@@ -1,0 +1,41 @@
+/* Màu nền cho toàn bộ trang */
+body {
+    background-color: #eaf4ff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 30px;
+}
+
+/* Tiêu đề */
+h1 {
+    color: #1e5aa8;
+}
+
+/* Đoạn văn */
+p {
+    color: #333;
+    font-size: 18px;
+}
+
+/* Khối có ảnh nền */
+.content {
+    width: 70%;
+    min-height: 250px;
+    margin: 30px auto;
+    padding: 30px;
+
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-position: center;
+
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+/* Tiêu đề trong khối */
+.content h2 {
+    margin-top: 50px;
+    font-size: 30px;
+}
